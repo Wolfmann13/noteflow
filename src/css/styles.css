@@ -725,6 +725,7 @@ a { color: inherit; text-decoration: none; }
   #view-editor { background: var(--bg-primary); }
   #view-editor .view-header { border-bottom: none; background: transparent; backdrop-filter: none; }
   .editor-body {
+    width: 100%;
     max-width: 800px;
     margin: 20px auto 40px;
     background: var(--bg-secondary);
@@ -732,13 +733,13 @@ a { color: inherit; text-decoration: none; }
     border-radius: var(--radius-lg);
     padding: 60px 80px;
     box-shadow: var(--shadow);
-    height: auto;
-    flex: 0 1 auto;
   }
   
   /* Settings behaves like a centered card */
+  #view-settings { background: var(--bg-primary); }
   #view-settings .view-header { border-bottom: none; background: transparent; backdrop-filter: none; }
   .settings-body {
+    width: 100%;
     max-width: 680px;
     margin: 20px auto 40px;
     background: var(--bg-secondary);
@@ -746,8 +747,6 @@ a { color: inherit; text-decoration: none; }
     border-radius: var(--radius-lg);
     padding: 50px;
     box-shadow: var(--shadow);
-    height: auto;
-    flex: 0 1 auto;
   }
   
   /* Turn bottom sheets into centered modals */
